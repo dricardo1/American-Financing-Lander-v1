@@ -12,8 +12,8 @@ const Hero = () => {
             <EZapply>
             <HeroP>EASY online application takes as little as <span className="green">5 MINUTES</span> to complete!</HeroP>
             </EZapply>
-            <VisaForm></VisaForm>
-            <EmailForm></EmailForm>
+            <VisaForm>VISA</VisaForm>
+            <EmailForm>EMAIL</EmailForm>
             </FormContainer>
         </Container>
     )

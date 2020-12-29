@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-    font-size: 6rem;
+    font-size: 5.75rem;
     font-weight: 700;
     display: flex;
     margin-top: 3.25rem;
@@ -45,37 +45,36 @@ export const HeroP = styled.p`
 
 export const FormContainer = styled.div`
     height: 100%;
-    width: auto;
-    margin-top: 0;
-    padding: 0;
+    max-width: 100vw;
+    margin: 0;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    position: relative;
 `;
 
 export const EZapply = styled.div`
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin: 1rem;
-    padding: 1em;
+    padding: .75em;
     background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     overflow: hidden;
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 22px;
-    width: 310px;
-    height: 200px;
-    position: relative;
+    width: 320px;
+    height: 240px;
+    position: absolute;
+    top: 1.25rem;
+    right: 10rem;
 `;
 
 export const VisaForm = styled.div`
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin: 1rem;
+    margin: 0;
     padding: 1em;
     background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
@@ -83,16 +82,18 @@ export const VisaForm = styled.div`
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 22px;
-    width: 310px;
-    height: 200px;
-    position: relative;
+    width: 380px;
+    height: 220px;
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    z-index: 1;
 `;
 
 export const EmailForm = styled.div`
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin: 1rem;
+    margin: 0;
     padding: 1em;
     background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
@@ -100,7 +101,9 @@ export const EmailForm = styled.div`
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 22px;
-    width: 310px;
-    height: 200px;
-    position: relative;
+    width: 380px;
+    height: 220px;
+    position: absolute;
+    top: 12rem;
+    right: -10rem;
 `;
